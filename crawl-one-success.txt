@@ -1,0 +1,452 @@
+PRO-GROUP@PRO-GROUP-PC /home/apache-nutch-1.9
+$ bin/crawl urls/ testovanec9/ http://localhost:8983/solr/collection1 2
+Injector: starting at 2014-11-09 22:13:51
+Injector: crawlDb: testovanec9/crawldb
+Injector: urlDir: urls
+Injector: Converting injected urls to crawl db entries.
+Injector: overwrite: false
+Injector: update: false
+Injector: Total number of urls rejected by filters: 0
+Injector: Total number of urls after normalization: 1
+Injector: Total new urls injected: 1
+Injector: finished at 2014-11-09 22:13:52, elapsed: 00:00:01
+9. 11 2014 22:13:52 : Iteration 1 of 2
+Generating a new segment
+Generator: starting at 2014-11-09 22:13:53
+Generator: Selecting best-scoring urls due for fetch.
+Generator: filtering: false
+Generator: normalizing: true
+Generator: topN: 50000
+Generator: Partitioning selected urls for politeness.
+Generator: segment: testovanec9/segments/20141109221356
+Generator: finished at 2014-11-09 22:13:57, elapsed: 00:00:03
+Operating on segment : 20141109221356
+Fetching : 20141109221356
+Fetcher: starting at 2014-11-09 22:13:58
+Fetcher: segment: testovanec9/segments/20141109221356
+Fetcher Timelimit set for : 1415578438056
+Using queue mode : byHost
+Fetcher: threads: 50
+Fetcher: time-out divisor: 2
+QueueFeeder finished: total 1 records + hit by time limit :0
+Using queue mode : byHost
+Using queue mode : byHost
+fetching http://www.pro-media.sk/pyroman (queue crawl delay=5000ms)
+Using queue mode : byHost
+Thread FetcherThread has no more work available
+-finishing thread FetcherThread, activeThreads=1
+Using queue mode : byHost
+Thread FetcherThread has no more work available
+-finishing thread FetcherThread, activeThreads=1
+Using queue mode : byHost
+Using queue mode : byHost
+Thread FetcherThread has no more work available
+-finishing thread FetcherThread, activeThreads=1
+Using queue mode : byHost
+Thread FetcherThread has no more work available
+-finishing thread FetcherThread, activeThreads=1
+Using queue mode : byHost
+Using queue mode : byHost
+Using queue mode : byHost
+Using queue mode : byHost
+Using queue mode : byHost
+Using queue mode : byHost
+Using queue mode : byHost
+Thread FetcherThread has no more work available
+-finishing thread FetcherThread, activeThreads=1
+Using queue mode : byHost
+Thread FetcherThread has no more work available
+-finishing thread FetcherThread, activeThreads=1
+Using queue mode : byHost
+Using queue mode : byHost
+Thread FetcherThread has no more work available
+-finishing thread FetcherThread, activeThreads=1
+Using queue mode : byHost
+Using queue mode : byHost
+Thread FetcherThread has no more work available
+-finishing thread FetcherThread, activeThreads=1
+Thread FetcherThread has no more work available
+-finishing thread FetcherThread, activeThreads=1
+Using queue mode : byHost
+Using queue mode : byHost
+Thread FetcherThread has no more work available
+-finishing thread FetcherThread, activeThreads=1
+Using queue mode : byHost
+Thread FetcherThread has no more work available
+-finishing thread FetcherThread, activeThreads=1
+Using queue mode : byHost
+Thread FetcherThread has no more work available
+-finishing thread FetcherThread, activeThreads=1
+Using queue mode : byHost
+Thread FetcherThread has no more work available
+-finishing thread FetcherThread, activeThreads=1
+Using queue mode : byHost
+Using queue mode : byHost
+Thread FetcherThread has no more work available
+-finishing thread FetcherThread, activeThreads=1
+Using queue mode : byHost
+Using queue mode : byHost
+Using queue mode : byHost
+Using queue mode : byHost
+Using queue mode : byHost
+Thread FetcherThread has no more work available
+-finishing thread FetcherThread, activeThreads=9
+Using queue mode : byHost
+Using queue mode : byHost
+Using queue mode : byHost
+Thread FetcherThread has no more work available
+-finishing thread FetcherThread, activeThreads=8
+Using queue mode : byHost
+Using queue mode : byHost
+Using queue mode : byHost
+Using queue mode : byHost
+Using queue mode : byHost
+Using queue mode : byHost
+Using queue mode : byHost
+Using queue mode : byHost
+Using queue mode : byHost
+Using queue mode : byHost
+Using queue mode : byHost
+Using queue mode : byHost
+Thread FetcherThread has no more work available
+-finishing thread FetcherThread, activeThreads=7
+Thread FetcherThread has no more work available
+-finishing thread FetcherThread, activeThreads=7
+Thread FetcherThread has no more work available
+Thread FetcherThread has no more work available
+-finishing thread FetcherThread, activeThreads=7
+Using queue mode : byHost
+Thread FetcherThread has no more work available
+-finishing thread FetcherThread, activeThreads=6
+-finishing thread FetcherThread, activeThreads=5
+Thread FetcherThread has no more work available
+-finishing thread FetcherThread, activeThreads=11
+Thread FetcherThread has no more work available
+-finishing thread FetcherThread, activeThreads=10
+Thread FetcherThread has no more work available
+-finishing thread FetcherThread, activeThreads=9
+Thread FetcherThread has no more work available
+Thread FetcherThread has no more work available
+-finishing thread FetcherThread, activeThreads=8
+Thread FetcherThread has no more work available
+-finishing thread FetcherThread, activeThreads=7
+-finishing thread FetcherThread, activeThreads=6
+Thread FetcherThread has no more work available
+-finishing thread FetcherThread, activeThreads=5
+Thread FetcherThread has no more work available
+Thread FetcherThread has no more work available
+Thread FetcherThread has no more work available
+-finishing thread FetcherThread, activeThreads=4
+-finishing thread FetcherThread, activeThreads=3
+-finishing thread FetcherThread, activeThreads=2
+Thread FetcherThread has no more work available
+Thread FetcherThread has no more work available
+Thread FetcherThread has no more work available
+Thread FetcherThread has no more work available
+-finishing thread FetcherThread, activeThreads=2
+Thread FetcherThread has no more work available
+-finishing thread FetcherThread, activeThreads=2
+Using queue mode : byHost
+Using queue mode : byHost
+Using queue mode : byHost
+Thread FetcherThread has no more work available
+-finishing thread FetcherThread, activeThreads=3
+-finishing thread FetcherThread, activeThreads=1
+Fetcher: throughput threshold: -1
+-finishing thread FetcherThread, activeThreads=3
+Fetcher: throughput threshold retries: 5
+fetcher.maxNum.threads can't be < than 50 : using 50 instead
+-finishing thread FetcherThread, activeThreads=3
+Thread FetcherThread has no more work available
+-finishing thread FetcherThread, activeThreads=1
+Thread FetcherThread has no more work available
+-finishing thread FetcherThread, activeThreads=1
+Thread FetcherThread has no more work available
+-finishing thread FetcherThread, activeThreads=1
+Thread FetcherThread has no more work available
+-finishing thread FetcherThread, activeThreads=1
+Thread FetcherThread has no more work available
+Thread FetcherThread has no more work available
+-finishing thread FetcherThread, activeThreads=1
+-finishing thread FetcherThread, activeThreads=2
+Thread FetcherThread has no more work available
+-finishing thread FetcherThread, activeThreads=1
+Thread FetcherThread has no more work available
+Thread FetcherThread has no more work available
+-finishing thread FetcherThread, activeThreads=2
+Thread FetcherThread has no more work available
+-finishing thread FetcherThread, activeThreads=2
+-finishing thread FetcherThread, activeThreads=1
+Thread FetcherThread has no more work available
+-finishing thread FetcherThread, activeThreads=1
+Thread FetcherThread has no more work available
+-finishing thread FetcherThread, activeThreads=1
+Thread FetcherThread has no more work available
+-finishing thread FetcherThread, activeThreads=0
+-activeThreads=0, spinWaiting=0, fetchQueues.totalSize=0, fetchQueues.getQueueCount=0
+-activeThreads=0
+Fetcher: finished at 2014-11-09 22:14:00, elapsed: 00:00:02
+Parsing : 20141109221356
+ParseSegment: starting at 2014-11-09 22:14:01
+ParseSegment: segment: testovanec9/segments/20141109221356
+ParseSegment: finished at 2014-11-09 22:14:02, elapsed: 00:00:01
+CrawlDB update
+CrawlDb update: starting at 2014-11-09 22:14:03
+CrawlDb update: db: testovanec9/crawldb
+CrawlDb update: segments: [testovanec9/segments/20141109221356]
+CrawlDb update: additions allowed: true
+CrawlDb update: URL normalizing: false
+CrawlDb update: URL filtering: false
+CrawlDb update: 404 purging: false
+CrawlDb update: Merging segment data into db.
+CrawlDb update: finished at 2014-11-09 22:14:04, elapsed: 00:00:01
+Link inversion
+LinkDb: starting at 2014-11-09 22:14:05
+LinkDb: linkdb: testovanec9/linkdb
+LinkDb: URL normalize: true
+LinkDb: URL filter: true
+LinkDb: internal links will be ignored.
+LinkDb: adding segment: testovanec9/segments/20141109221356
+LinkDb: finished at 2014-11-09 22:14:06, elapsed: 00:00:01
+Dedup on crawldb
+Indexing 20141109221356 on SOLR index -> http://localhost:8983/solr/collection1
+Indexer: starting at 2014-11-09 22:14:10
+Indexer: deleting gone documents: false
+Indexer: URL filtering: false
+Indexer: URL normalizing: false
+Active IndexWriters :
+SOLRIndexWriter
+        solr.server.url : URL of the SOLR instance (mandatory)
+        solr.commit.size : buffer size when sending to SOLR (default 1000)
+        solr.mapping.file : name of the mapping file for fields (default solrindex-mapping.xml)
+        solr.auth : use authentication (default false)
+        solr.auth.username : use authentication (default false)
+        solr.auth : username for authentication
+        solr.auth.password : password for authentication
+
+
+Indexer: finished at 2014-11-09 22:14:12, elapsed: 00:00:01
+Cleanup on SOLR index -> http://localhost:8983/solr/collection1
+9. 11 2014 22:14:14 : Iteration 2 of 2
+Generating a new segment
+Generator: starting at 2014-11-09 22:14:15
+Generator: Selecting best-scoring urls due for fetch.
+Generator: filtering: false
+Generator: normalizing: true
+Generator: topN: 50000
+Generator: Partitioning selected urls for politeness.
+Generator: segment: testovanec9/segments/20141109221417
+Generator: finished at 2014-11-09 22:14:18, elapsed: 00:00:03
+Operating on segment : 20141109221417
+Fetching : 20141109221417
+Fetcher: starting at 2014-11-09 22:14:19
+Fetcher: segment: testovanec9/segments/20141109221417
+Fetcher Timelimit set for : 1415578459579
+Using queue mode : byHost
+Fetcher: threads: 50
+Fetcher: time-out divisor: 2
+QueueFeeder finished: total 1 records + hit by time limit :0
+Using queue mode : byHost
+Using queue mode : byHost
+Thread FetcherThread has no more work available
+Using queue mode : byHost
+-finishing thread FetcherThread, activeThreads=1
+fetching http://www.pro-media.sk/pyroman/ (queue crawl delay=5000ms)
+Thread FetcherThread has no more work available
+Using queue mode : byHost
+-finishing thread FetcherThread, activeThreads=1
+Thread FetcherThread has no more work available
+Using queue mode : byHost
+-finishing thread FetcherThread, activeThreads=1
+Thread FetcherThread has no more work available
+Using queue mode : byHost
+-finishing thread FetcherThread, activeThreads=1
+Thread FetcherThread has no more work available
+Using queue mode : byHost
+-finishing thread FetcherThread, activeThreads=1
+Thread FetcherThread has no more work available
+Using queue mode : byHost
+-finishing thread FetcherThread, activeThreads=1
+Thread FetcherThread has no more work available
+Using queue mode : byHost
+-finishing thread FetcherThread, activeThreads=1
+Thread FetcherThread has no more work available
+Using queue mode : byHost
+-finishing thread FetcherThread, activeThreads=1
+Thread FetcherThread has no more work available
+Using queue mode : byHost
+-finishing thread FetcherThread, activeThreads=1
+Thread FetcherThread has no more work available
+Using queue mode : byHost
+-finishing thread FetcherThread, activeThreads=1
+Thread FetcherThread has no more work available
+Using queue mode : byHost
+-finishing thread FetcherThread, activeThreads=1
+Thread FetcherThread has no more work available
+Using queue mode : byHost
+-finishing thread FetcherThread, activeThreads=1
+Thread FetcherThread has no more work available
+Using queue mode : byHost
+-finishing thread FetcherThread, activeThreads=1
+Thread FetcherThread has no more work available
+Using queue mode : byHost
+-finishing thread FetcherThread, activeThreads=1
+Thread FetcherThread has no more work available
+Using queue mode : byHost
+-finishing thread FetcherThread, activeThreads=1
+Using queue mode : byHost
+Using queue mode : byHost
+Thread FetcherThread has no more work available
+-finishing thread FetcherThread, activeThreads=1
+Thread FetcherThread has no more work available
+-finishing thread FetcherThread, activeThreads=1
+Using queue mode : byHost
+Using queue mode : byHost
+Using queue mode : byHost
+Thread FetcherThread has no more work available
+-finishing thread FetcherThread, activeThreads=1
+Using queue mode : byHost
+Using queue mode : byHost
+Thread FetcherThread has no more work available
+-finishing thread FetcherThread, activeThreads=1
+Using queue mode : byHost
+Thread FetcherThread has no more work available
+-finishing thread FetcherThread, activeThreads=1
+Using queue mode : byHost
+Thread FetcherThread has no more work available
+Thread FetcherThread has no more work available
+Using queue mode : byHost
+-finishing thread FetcherThread, activeThreads=2
+Thread FetcherThread has no more work available
+-finishing thread FetcherThread, activeThreads=2
+Thread FetcherThread has no more work available
+-finishing thread FetcherThread, activeThreads=2
+-finishing thread FetcherThread, activeThreads=2
+Using queue mode : byHost
+Thread FetcherThread has no more work available
+Thread FetcherThread has no more work available
+-finishing thread FetcherThread, activeThreads=2
+-finishing thread FetcherThread, activeThreads=1
+Thread FetcherThread has no more work available
+-finishing thread FetcherThread, activeThreads=1
+Using queue mode : byHost
+Using queue mode : byHost
+Thread FetcherThread has no more work available
+-finishing thread FetcherThread, activeThreads=1
+Using queue mode : byHost
+Thread FetcherThread has no more work available
+Using queue mode : byHost
+-finishing thread FetcherThread, activeThreads=1
+Using queue mode : byHost
+Thread FetcherThread has no more work available
+Using queue mode : byHost
+-finishing thread FetcherThread, activeThreads=1
+Thread FetcherThread has no more work available
+-finishing thread FetcherThread, activeThreads=1
+Using queue mode : byHost
+Using queue mode : byHost
+Thread FetcherThread has no more work available
+Thread FetcherThread has no more work available
+-finishing thread FetcherThread, activeThreads=2
+Using queue mode : byHost
+Thread FetcherThread has no more work available
+-finishing thread FetcherThread, activeThreads=2
+Using queue mode : byHost
+-finishing thread FetcherThread, activeThreads=1
+Thread FetcherThread has no more work available
+-finishing thread FetcherThread, activeThreads=1
+Using queue mode : byHost
+Thread FetcherThread has no more work available
+-finishing thread FetcherThread, activeThreads=1
+Thread FetcherThread has no more work available
+-finishing thread FetcherThread, activeThreads=1
+Using queue mode : byHost
+Thread FetcherThread has no more work available
+-finishing thread FetcherThread, activeThreads=1
+Using queue mode : byHost
+Using queue mode : byHost
+Using queue mode : byHost
+Using queue mode : byHost
+Using queue mode : byHost
+Using queue mode : byHost
+Using queue mode : byHost
+Using queue mode : byHost
+Using queue mode : byHost
+Using queue mode : byHost
+Fetcher: throughput threshold: -1
+Fetcher: throughput threshold retries: 5
+fetcher.maxNum.threads can't be < than 50 : using 50 instead
+Thread FetcherThread has no more work available
+-finishing thread FetcherThread, activeThreads=1
+Thread FetcherThread has no more work available
+-finishing thread FetcherThread, activeThreads=1
+Thread FetcherThread has no more work available
+Thread FetcherThread has no more work available
+-finishing thread FetcherThread, activeThreads=2
+Thread FetcherThread has no more work available
+-finishing thread FetcherThread, activeThreads=1
+Thread FetcherThread has no more work available
+-finishing thread FetcherThread, activeThreads=2
+Thread FetcherThread has no more work available
+-finishing thread FetcherThread, activeThreads=2
+Thread FetcherThread has no more work available
+-finishing thread FetcherThread, activeThreads=2
+Thread FetcherThread has no more work available
+Thread FetcherThread has no more work available
+-finishing thread FetcherThread, activeThreads=3
+-finishing thread FetcherThread, activeThreads=2
+Thread FetcherThread has no more work available
+-finishing thread FetcherThread, activeThreads=2
+-finishing thread FetcherThread, activeThreads=1
+Thread FetcherThread has no more work available
+-finishing thread FetcherThread, activeThreads=0
+-activeThreads=0, spinWaiting=0, fetchQueues.totalSize=0, fetchQueues.getQueueCount=0
+-activeThreads=0
+Fetcher: finished at 2014-11-09 22:14:22, elapsed: 00:00:02
+Parsing : 20141109221417
+ParseSegment: starting at 2014-11-09 22:14:22
+ParseSegment: segment: testovanec9/segments/20141109221417
+Parsed (6ms):http://www.pro-media.sk/pyroman/
+ParseSegment: finished at 2014-11-09 22:14:24, elapsed: 00:00:01
+CrawlDB update
+CrawlDb update: starting at 2014-11-09 22:14:24
+CrawlDb update: db: testovanec9/crawldb
+CrawlDb update: segments: [testovanec9/segments/20141109221417]
+CrawlDb update: additions allowed: true
+CrawlDb update: URL normalizing: false
+CrawlDb update: URL filtering: false
+CrawlDb update: 404 purging: false
+CrawlDb update: Merging segment data into db.
+CrawlDb update: finished at 2014-11-09 22:14:26, elapsed: 00:00:01
+Link inversion
+LinkDb: starting at 2014-11-09 22:14:27
+LinkDb: linkdb: testovanec9/linkdb
+LinkDb: URL normalize: true
+LinkDb: URL filter: true
+LinkDb: internal links will be ignored.
+LinkDb: adding segment: testovanec9/segments/20141109221417
+LinkDb: merging with existing linkdb: testovanec9/linkdb
+LinkDb: finished at 2014-11-09 22:14:29, elapsed: 00:00:02
+Dedup on crawldb
+Indexing 20141109221417 on SOLR index -> http://localhost:8983/solr/collection1
+Indexer: starting at 2014-11-09 22:14:33
+Indexer: deleting gone documents: false
+Indexer: URL filtering: false
+Indexer: URL normalizing: false
+Active IndexWriters :
+SOLRIndexWriter
+        solr.server.url : URL of the SOLR instance (mandatory)
+        solr.commit.size : buffer size when sending to SOLR (default 1000)
+        solr.mapping.file : name of the mapping file for fields (default solrindex-mapping.xml)
+        solr.auth : use authentication (default false)
+        solr.auth.username : use authentication (default false)
+        solr.auth : username for authentication
+        solr.auth.password : password for authentication
+
+
+Indexer: java.io.IOException: Job failed!
+        at org.apache.hadoop.mapred.JobClient.runJob(JobClient.java:1252)
+        at org.apache.nutch.indexer.IndexingJob.index(IndexingJob.java:114)
+        at org.apache.nutch.indexer.IndexingJob.run(IndexingJob.java:176)
+        at org.apache.hadoop.util.ToolRunner.run(ToolRunner.java:65)
+        at org.apache.nutch.indexer.IndexingJob.main(IndexingJob.java:186)
