@@ -1,4 +1,0 @@
-15:45:50
-ERROR
-SolrCore
-org.apache.solr.common.SolrException: ERROR: [doc=http://ad.sme.sk/] unknown field 'tstamp'
