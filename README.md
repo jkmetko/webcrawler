@@ -1,7 +1,7 @@
 webcrawler
 ==========
 
-Prerequisities:
+<h1>Prerequisities</h1>
 Apache Nutch 1.9 - http://tux.rainside.sk/apache/nutch/1.9/apache-nutch-1.9-bin.zip <br />
 Apache Solr 4.10.2 - http://tux.rainside.sk/apache/lucene/solr/4.10.2/solr-4.10.2.zip <br />
 Oracle JAVA 8 - http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html <br />
@@ -12,7 +12,7 @@ Cygwin - https://cygwin.com/install.html
 
 ____________________
 
-<h1>Setup:</h1>
+<h1>Setup</h1>
 1) Install Oracle JAVA 8
 
 2) Setup new environment variable JAVA_HOME environment variable -  http://docs.oracle.com/cd/E19182-01/820-7851/inst_cli_jdk_javahome_t/index.html
