@@ -2,7 +2,7 @@ webcrawler
 ==========
 
 Prerequisities:
-Apache Nutch 1.9 - http://tux.rainside.sk/apache/nutch/1.9/apache-nutch-1.9-bin.zip
+Apache Nutch 1.9 - http://tux.rainside.sk/apache/nutch/1.9/apache-nutch-1.9-bin.zip <br />
 Apache Solr 4.10.2 - http://tux.rainside.sk/apache/lucene/solr/4.10.2/solr-4.10.2.zip
 Oracle JAVA 8 - http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
 Configuration files - https://github.com/jkmetko/webcrawler/configuration_files
