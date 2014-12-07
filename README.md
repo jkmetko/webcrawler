@@ -33,7 +33,7 @@ Example:
 copy files from {confs}/regex-urlfilter.txt to {NUTCH_home}/conf
 Change domain/s to that/those in seeds.txt
 
-!NOTE - some file extensions are deprecated. Feel free to change them.
+<strong>!NOTE</strong> - some file extensions are deprecated. Feel free to change them.
 
 7) Copy files from {conf}/Nutch to {NUTCH_home}/conf/schema.xml
 
@@ -43,13 +43,13 @@ Change domain/s to that/those in seeds.txt
   - cd {SOLR_home}/example
   - java -jar start.jar
 
-!NOTE verify service start up. In browser type in url "http://localhost:8983/solr"
+<strong>!NOTE</strong> verify service start up. In browser type in url "http://localhost:8983/solr"
 
 10) Start your first crawl:
   - cd {NUTCH_home}/bin
   - ./crawl urls/ economistCrawl/ http://localhost:8983/solr/collection1 2
 
-!NOTE - for description of this service, run "./crawl"
+<strong>!NOTE</strong> - for description of this service, run "./crawl"
 
 11) Make your first search query in SOLR:
   - visit http://localhost:8983/solr/collection1/browse
