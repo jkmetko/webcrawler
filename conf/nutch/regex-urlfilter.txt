@@ -1,0 +1,1 @@
++^http://([a-z0-9]*\.)*your-domain/([a-z0-9]*\.)*-.(jpg|gif|zip|ico|pdf|rar|png|psd|exe)$
