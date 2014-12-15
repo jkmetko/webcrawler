@@ -17,8 +17,12 @@ ____________________
 
 2) Setup new environment variable JAVA_HOME environment variable -  http://docs.oracle.com/cd/E19182-01/820-7851/inst_cli_jdk_javahome_t/index.html
 
-3) Export all the nutch and solr files to new folder called crawlerHome, we'll refered to this folder as {home}, to crawlerHome/solr4.10.2 as {SOLR_home}, and to ho crawlerHome/nutch-1.9 as {NUTCH_home}.
+3.1) Export all the nutch and solr files to new folder called crawlerHome, we'll refered to this folder as {home}, to crawlerHome/solr4.10.2 as {SOLR_home}, and to ho crawlerHome/nutch-1.9 as {NUTCH_home}.
 Copy files from "Configuration files" to {home}/Conf . We'll refer to it as {conf}
+
+3.2)Download Hadoop Core 0.20.2 from the MVN repository: http://mvnrepository.com/artifact/org.apache.hadoop/hadoop-core/0.20.2
+
+3.3)Replace {NUTCH_home}/lib/hadoop-core-1.2.0.jar with the downloaded file renaming it with the same name.
 
 4) Open {NUTCH_home}/conf/nutch-site.xml and add the agent name value
 Example:
